@@ -1,0 +1,10 @@
+^F:\C++LAB6\BUILD\CMAKEFILES\4A2A7C58BB6D771C3257F995067C0271\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/C++lab6 -BF:/C++lab6/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/C++lab6/build/WarehouseSim.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

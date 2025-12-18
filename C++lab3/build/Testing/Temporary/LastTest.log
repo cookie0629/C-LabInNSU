@@ -1,0 +1,19 @@
+Start testing: Dec 18 16:12 新西伯利亚标准时间
+----------------------------------------------------------
+1/1 Testing: regex_tests
+1/1 Test: regex_tests
+Command: "F:/C++lab3/build/tests/Debug/regex_tests.exe"
+Directory: F:/C++lab3/build/tests
+"regex_tests" start time: Dec 18 16:12 新西伯利亚标准时间
+Output:
+----------------------------------------------------------
+All 20 tests passed.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"regex_tests" end time: Dec 18 16:12 新西伯利亚标准时间
+"regex_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 18 16:12 新西伯利亚标准时间

@@ -1,0 +1,10 @@
+^F:\C++LAB4\BUILD\CMAKEFILES\3D005887E22AEDCAA65FD7CD3B140D7A\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/C++lab4 -BF:/C++lab4/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/C++lab4/build/FormatConverter.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

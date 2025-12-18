@@ -1,0 +1,5 @@
+F:\C++lab4\src\main.cpp;F:\C++lab4\build\FormatConverter.dir\Release\main.obj
+F:\C++lab4\src\converter.cpp;F:\C++lab4\build\FormatConverter.dir\Release\converter.obj
+F:\C++lab4\src\json_parser.cpp;F:\C++lab4\build\FormatConverter.dir\Release\json_parser.obj
+F:\C++lab4\src\toml_parser.cpp;F:\C++lab4\build\FormatConverter.dir\Release\toml_parser.obj
+F:\C++lab4\src\xml_parser.cpp;F:\C++lab4\build\FormatConverter.dir\Release\xml_parser.obj

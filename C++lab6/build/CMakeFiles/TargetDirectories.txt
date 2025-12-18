@@ -1,0 +1,4 @@
+F:/C++lab6/build/CMakeFiles/warehouse_lib.dir
+F:/C++lab6/build/CMakeFiles/warehouse_app.dir
+F:/C++lab6/build/CMakeFiles/ALL_BUILD.dir
+F:/C++lab6/build/CMakeFiles/ZERO_CHECK.dir

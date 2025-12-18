@@ -1,0 +1,30 @@
+Start testing: Dec 04 16:35 新西伯利亚标准时间
+----------------------------------------------------------
+1/1 Testing: FormatConverterTests
+1/1 Test: FormatConverterTests
+Command: "F:/C++lab4/build/Release/test_format_converter.exe"
+Directory: F:/C++lab4/build
+"FormatConverterTests" start time: Dec 04 16:35 新西伯利亚标准时间
+Output:
+----------------------------------------------------------
+Running Format Converter Tests...
+
+Testing JSON Parser and Serializer...
+  All JSON tests passed!
+Testing TOML Parser and Serializer...
+  All TOML tests passed!
+Testing XML Parser and Serializer...
+  All XML tests passed!
+Testing Format Converter...
+  All Converter tests passed!
+
+All tests passed!
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"FormatConverterTests" end time: Dec 04 16:35 新西伯利亚标准时间
+"FormatConverterTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 04 16:35 新西伯利亚标准时间

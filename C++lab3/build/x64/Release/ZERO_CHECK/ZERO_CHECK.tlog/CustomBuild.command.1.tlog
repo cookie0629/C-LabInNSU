@@ -1,0 +1,10 @@
+^F:\C++LAB3\BUILD\CMAKEFILES\6E29C870AF8E3870119594E4BEBF1D11\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/C++lab3 -BF:/C++lab3/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/C++lab3/build/SimpleRegexEngine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

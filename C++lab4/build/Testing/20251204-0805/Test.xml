@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20251204-0805-Experimental"
+	Name="(empty)"
+	Generator="ctest-4.2.0"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="Cookie"
+	OSRelease="10.0.26100"
+	OSVersion="Windows 10"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="5"
+	ModelName=""
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="16"
+	TotalVirtualMemory="69124"
+	TotalPhysicalMemory="65028"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2900"
+	>
+	<Testing>
+		<StartDateTime>Dec 15 16:20 新西伯利亚标准时间</StartDateTime>
+		<StartTestTime>1765790439</StartTestTime>
+		<TestList/>
+		<EndDateTime>Dec 15 16:20 新西伯利亚标准时间</EndDateTime>
+		<EndTestTime>1765790439</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

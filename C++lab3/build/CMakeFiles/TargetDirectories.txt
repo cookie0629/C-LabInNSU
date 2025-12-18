@@ -1,0 +1,8 @@
+F:/C++lab3/build/CMakeFiles/RUN_TESTS.dir
+F:/C++lab3/build/CMakeFiles/ALL_BUILD.dir
+F:/C++lab3/build/CMakeFiles/ZERO_CHECK.dir
+F:/C++lab3/build/src/CMakeFiles/regex_engine.dir
+F:/C++lab3/build/src/CMakeFiles/regex_cli.dir
+F:/C++lab3/build/src/CMakeFiles/RUN_TESTS.dir
+F:/C++lab3/build/tests/CMakeFiles/regex_tests.dir
+F:/C++lab3/build/tests/CMakeFiles/RUN_TESTS.dir

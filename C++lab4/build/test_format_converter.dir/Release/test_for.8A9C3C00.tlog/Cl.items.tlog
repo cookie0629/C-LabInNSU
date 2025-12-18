@@ -1,0 +1,9 @@
+F:\C++lab4\tests\test_main.cpp;F:\C++lab4\build\test_format_converter.dir\Release\test_main.obj
+F:\C++lab4\tests\test_json.cpp;F:\C++lab4\build\test_format_converter.dir\Release\test_json.obj
+F:\C++lab4\tests\test_toml.cpp;F:\C++lab4\build\test_format_converter.dir\Release\test_toml.obj
+F:\C++lab4\tests\test_xml.cpp;F:\C++lab4\build\test_format_converter.dir\Release\test_xml.obj
+F:\C++lab4\tests\test_converter.cpp;F:\C++lab4\build\test_format_converter.dir\Release\test_converter.obj
+F:\C++lab4\src\converter.cpp;F:\C++lab4\build\test_format_converter.dir\Release\converter.obj
+F:\C++lab4\src\json_parser.cpp;F:\C++lab4\build\test_format_converter.dir\Release\json_parser.obj
+F:\C++lab4\src\toml_parser.cpp;F:\C++lab4\build\test_format_converter.dir\Release\toml_parser.obj
+F:\C++lab4\src\xml_parser.cpp;F:\C++lab4\build\test_format_converter.dir\Release\xml_parser.obj

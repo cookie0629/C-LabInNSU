@@ -1,0 +1,5 @@
+F:/C++lab4/build/CMakeFiles/FormatConverter.dir
+F:/C++lab4/build/CMakeFiles/test_format_converter.dir
+F:/C++lab4/build/CMakeFiles/RUN_TESTS.dir
+F:/C++lab4/build/CMakeFiles/ALL_BUILD.dir
+F:/C++lab4/build/CMakeFiles/ZERO_CHECK.dir
