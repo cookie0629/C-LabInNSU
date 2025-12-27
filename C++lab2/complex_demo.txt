@@ -1,0 +1,64 @@
+Accounts 8
+1001 # deposit # 100000.000 # RUB
+1002 # deposit # 15000.000 # USD
+1003 # deposit # 200000.000 # RUB
+1004 # deposit # 8000.000 # EUR
+1005 # deposit # 50000.000 # RUB
+1006 # deposit # 5000.000 # USD
+1007 # deposit # 75000.000 # RUB
+1008 # deposit # 3000.000 # EUR
+Debits 3
+2001 # 5.500000e+00 # Compounded Daily Remaining # 1 # 365
+2002 # 3.200000e+00 # Compounded Monthly Remaining # 1 # 180
+2003 # 4.100000e+00 # Compounded Daily Min # 1 # 90
+Credits 2
+3001 # 1.250000e+01 # 1500000.000 # Charged Daily
+3002 # 9.800000e+00 # 800000.000 # Charged Monthly
+Clients 5
+4001 # Ivanov Ivan Ivanovich # Individual Client
+4002 # OOO TechCorp # Legal Entity
+4003 # Petrov Petr Petrovich # VIP Individual Client
+4004 # Sidorov Sergey Sergeevich # Individual Client
+4005 # ZAO MegaCorp # VIP Legal Entity
+Client Debit 5
+4001 # 1001 # 2001
+4002 # 1002 # 0
+4003 # 1005 # 2003
+4004 # 1007 # 0
+4005 # 1006 # 0
+Bank Accounts 4
+1003
+1004
+1008
+1002
+Client Credit 2
+4001 # 1003 # 3001
+4002 # 1004 # 3002
+Work Places 4
+Client Manager # 3
+Cash Desk # 2
+Currency Exchange # 1
+VIP Client Manager # 2
+Exchange Rates 6
+USD # RUB # 7.550000e+01
+EUR # RUB # 8.520000e+01
+RUB # USD # 1.324503e-02
+RUB # EUR # 1.173709e-02
+USD # EUR # 9.200000e-01
+EUR # USD # 1.086957e+00
+1 # 8:00 # Start of Bank Day
+1 # 9:00 # Personal Appeal # Ivanov Ivan Ivanovich # Individual # 2
+Balance Inquiry # 1001
+Create Account # EUR
+1 # 9:30 # Personal Appeal # Petrov Petr Petrovich # VIP Individual Client # 3
+Balance Inquiry # 1005
+Create Account # USD
+Create Account # RUB
+1 # 10:00 # Personal Appeal # Sidorov Sergey Sergeevich # Individual # 1
+Balance Inquiry # 1007
+1 # 10:30 # Personal Appeal # Novikov Nikolay Nikolaevich # Individual # 1
+Create Account # RUB
+1 # 11:00 # Personal Appeal # OOO TechCorp # Legal Entity # 2
+Balance Inquiry # 1002
+Create Account # RUB
+1 # 19:00 # End of Bank Day

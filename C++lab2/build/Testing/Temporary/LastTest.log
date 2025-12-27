@@ -1,0 +1,18 @@
+Start testing: Dec 25 15:18 新西伯利亚标准时间
+----------------------------------------------------------
+1/1 Testing: money_rounding
+1/1 Test: money_rounding
+Command: "F:/C++lab2/build/tests/Release/bank_tests.exe"
+Directory: F:/C++lab2/build/tests
+"money_rounding" start time: Dec 25 15:18 新西伯利亚标准时间
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"money_rounding" end time: Dec 25 15:18 新西伯利亚标准时间
+"money_rounding" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 25 15:18 新西伯利亚标准时间

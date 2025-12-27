@@ -1,0 +1,124 @@
+@startuml
+title Bank Branch Simulator - Core Classes
+
+package "Domain Model" {
+  class Account {
+    + id: unsigned long long
+    + type: string
+    + balance: double
+    + currency: string
+    + active: bool
+  }
+
+  class Deposit {
+    + id: unsigned long long
+    + rate: double
+    + type: string
+    + createdDay: unsigned long long
+    + durationDays: unsigned long long
+  }
+
+  class Loan {
+    + id: unsigned long long
+    + rate: double
+    + amount: double
+    + type: string
+  }
+
+  class Client {
+    + id: unsigned long long
+    + name: string
+    + type: string
+  }
+
+  class ClientAccount {
+    + clientId: unsigned long long
+    + accountId: unsigned long long
+    + depositId: unsigned long long
+    + loanId: unsigned long long
+    + isLoanAccount: bool
+    + isDepositAccount: bool
+  }
+
+  class WorkplaceDefinition {
+    + type: string
+    + count: unsigned long long
+  }
+
+  enum Currency {
+    RUB
+    YUAN
+    USD
+    EUR
+    Unknown
+  }
+
+  enum CustomerKind {
+    Individual
+    VipIndividual
+    Legal
+    VipLegal
+    NotClient
+  }
+}
+
+package "Bank System" {
+  class BankSystem {
+    - accounts_: unordered_map<ull, Account>
+    - clients_: unordered_map<ull, Client>
+    - deposits_: unordered_map<ull, Deposit>
+    - loans_: unordered_map<ull, Loan>
+    - clientAccounts_: unordered_map<ull, vector<ClientAccount>>
+    - bankInternalAccounts_: unordered_map<string, ull>
+    - workplaces_: vector<WorkplaceDefinition>
+    - exchangeRates_: map<pair<string,string>, double>
+    - accountOwners_: unordered_map<ull, ull>
+    - clientNameToId_: unordered_map<string, ull>
+    - accountCountByCurrency_: unordered_map<ull, array<ull, 4>>
+    - nextAccountId_: unsigned long long
+    - nextClientId_: unsigned long long
+    - currentTime_: DateTime
+    - bankDayStarted_: bool
+    - bankDayClosed_: bool
+    
+    + loadInitialData(): void
+    + run(): void
+    + processEvent(buffer: const char*): void
+    + handlePersonalAppeal(...): void
+    + handleStartOfDay(...): void
+    + handleEndOfDay(...): void
+    + handleBalanceInquiry(...): void
+    + handleCreateAccount(...): void
+    - readAccounts(): void
+    - readDeposits(): void
+    - readLoans(): void
+    - readClients(): void
+    - buildDerivedState(): void
+    - findClientByName(name: string): Client*
+    - ensureClientByName(name: string, type: CustomerKind): Client*
+  }
+
+  class DateTime {
+    + day: unsigned long long
+    + hour: unsigned long long
+    + minute: unsigned long long
+  }
+}
+
+BankSystem "1" *-- "*" Account : manages
+BankSystem "1" *-- "*" Deposit : manages
+BankSystem "1" *-- "*" Loan : manages
+BankSystem "1" *-- "*" Client : manages
+BankSystem "1" *-- "*" WorkplaceDefinition : manages
+BankSystem "1" *-- "1" DateTime : tracks
+
+Client "1" -- "*" ClientAccount : owns
+Account "1" -- "*" ClientAccount : referenced by
+Deposit "0..1" -- "*" ClientAccount : associated with
+Loan "0..1" -- "*" ClientAccount : associated with
+
+Account ..> Currency : uses
+Client ..> CustomerKind : classified by
+
+@enduml
+

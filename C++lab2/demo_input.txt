@@ -1,0 +1,47 @@
+Accounts 6
+1001 # deposit # 50000.000 # RUB
+1002 # deposit # 10000.000 # USD
+1003 # deposit # 100000.000 # RUB
+1004 # deposit # 5000.000 # EUR
+1005 # deposit # 20000.000 # RUB
+1006 # deposit # 3000.000 # USD
+Debits 2
+2001 # 5.500000e+00 # Compounded Daily Remaining # 1 # 365
+2002 # 3.200000e+00 # Compounded Monthly Remaining # 1 # 180
+Credits 1
+3001 # 1.250000e+01 # 1000000.000 # Charged Daily
+Clients 3
+4001 # Ivanov Ivan Ivanovich # Individual Client
+4002 # OOO TechCorp # Legal Entity
+4003 # Petrov Petr Petrovich # VIP Individual Client
+Client Debit 3
+4001 # 1001 # 2001
+4002 # 1002 # 0
+4003 # 1005 # 0
+Bank Accounts 4
+1003
+1004
+1006
+1002
+Client Credit 1
+4001 # 1003 # 3001
+Work Places 4
+Client Manager # 2
+Cash Desk # 1
+Currency Exchange # 1
+VIP Client Manager # 1
+Exchange Rates 3
+USD # RUB # 7.550000e+01
+EUR # RUB # 8.520000e+01
+RUB # USD # 1.324503e-02
+1 # 8:00 # Start of Bank Day
+1 # 9:30 # Personal Appeal # Ivanov Ivan Ivanovich # Individual # 3
+Balance Inquiry # 1001
+Create Account # USD
+Balance Inquiry # 1001
+1 # 10:15 # Personal Appeal # Petrov Petr Petrovich # VIP Individual Client # 2
+Balance Inquiry # 1005
+Create Account # EUR
+1 # 11:00 # Personal Appeal # Sidorov Sergey Sergeevich # Individual # 1
+Create Account # RUB
+1 # 19:00 # End of Bank Day

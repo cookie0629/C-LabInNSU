@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"F:/C++lab2/build/cmake_install.cmake",
+		"F:/C++lab2/build/external/cmake_install.cmake",
+		"F:/C++lab2/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,628 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Threads::Threads::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Threads__Threads-Debug-03b19d7ac8c416088e67.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cppzmq::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cppzmq-Debug-730c849bc35433aa39eb.json",
+					"name" : "cppzmq",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cppzmq-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cppzmq-static-Debug-816075cb5b41a6929d8b.json",
+					"name" : "cppzmq-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libzmq::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libzmq-Debug-b0d893a31695bc52995e.json",
+					"name" : "libzmq",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libzmq-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libzmq-static-Debug-2ec3f56c569205478b5f.json",
+					"name" : "libzmq-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yaml-cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yaml-cpp-Debug-490f745f2dd3a299043a.json",
+					"name" : "yaml-cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yaml-cpp::yaml-cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yaml-cpp__yaml-cpp-Debug-fd85ed171edc5cea3cb5.json",
+					"name" : "yaml-cpp::yaml-cpp",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-fde6f5bbdd383352eab4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MessageBrokerLab7",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-b6887ee7733abe663168.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-955867ee9b98e9d93e07.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "broker_app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-broker_app-Debug-5ba5ea6ba10e9ac25290.json",
+					"name" : "broker_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "broker_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-broker_core-Debug-a84d606a165c7f315a09.json",
+					"name" : "broker_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "client_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client_demo-Debug-1676f0297756a96800e5.json",
+					"name" : "client_demo",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Threads::Threads::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Threads__Threads-Release-03b19d7ac8c416088e67.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cppzmq::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cppzmq-Release-730c849bc35433aa39eb.json",
+					"name" : "cppzmq",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cppzmq-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cppzmq-static-Release-816075cb5b41a6929d8b.json",
+					"name" : "cppzmq-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libzmq::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libzmq-Release-0ae57c45897e4bd9793f.json",
+					"name" : "libzmq",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libzmq-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libzmq-static-Release-2ec3f56c569205478b5f.json",
+					"name" : "libzmq-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yaml-cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yaml-cpp-Release-490f745f2dd3a299043a.json",
+					"name" : "yaml-cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yaml-cpp::yaml-cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yaml-cpp__yaml-cpp-Release-bfcba071ad5020b072b5.json",
+					"name" : "yaml-cpp::yaml-cpp",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-49ecf4b1e26e54504d2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MessageBrokerLab7",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-b6887ee7733abe663168.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-955867ee9b98e9d93e07.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "broker_app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-broker_app-Release-df900f4890b7d03515e0.json",
+					"name" : "broker_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "broker_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-broker_core-Release-5d99bbab8c0814e4c3dc.json",
+					"name" : "broker_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "client_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client_demo-Release-2cceca232493142e6b68.json",
+					"name" : "client_demo",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Threads::Threads::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Threads__Threads-MinSizeRel-03b19d7ac8c416088e67.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cppzmq::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cppzmq-MinSizeRel-730c849bc35433aa39eb.json",
+					"name" : "cppzmq",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cppzmq-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cppzmq-static-MinSizeRel-816075cb5b41a6929d8b.json",
+					"name" : "cppzmq-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libzmq::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libzmq-MinSizeRel-0ae57c45897e4bd9793f.json",
+					"name" : "libzmq",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libzmq-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libzmq-static-MinSizeRel-2ec3f56c569205478b5f.json",
+					"name" : "libzmq-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yaml-cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yaml-cpp-MinSizeRel-490f745f2dd3a299043a.json",
+					"name" : "yaml-cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yaml-cpp::yaml-cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yaml-cpp__yaml-cpp-MinSizeRel-bfcba071ad5020b072b5.json",
+					"name" : "yaml-cpp::yaml-cpp",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-5be00ba14cfb1cd5b457.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MessageBrokerLab7",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-b6887ee7733abe663168.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-955867ee9b98e9d93e07.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "broker_app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-broker_app-MinSizeRel-2b6507581d6ee0060bf6.json",
+					"name" : "broker_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "broker_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-broker_core-MinSizeRel-6ebf3737e447bbf076fb.json",
+					"name" : "broker_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "client_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client_demo-MinSizeRel-10668456cd84d2503204.json",
+					"name" : "client_demo",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Threads::Threads::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Threads__Threads-RelWithDebInfo-03b19d7ac8c416088e67.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cppzmq::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cppzmq-RelWithDebInfo-730c849bc35433aa39eb.json",
+					"name" : "cppzmq",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cppzmq-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cppzmq-static-RelWithDebInfo-816075cb5b41a6929d8b.json",
+					"name" : "cppzmq-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libzmq::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libzmq-RelWithDebInfo-0ae57c45897e4bd9793f.json",
+					"name" : "libzmq",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libzmq-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libzmq-static-RelWithDebInfo-2ec3f56c569205478b5f.json",
+					"name" : "libzmq-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yaml-cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yaml-cpp-RelWithDebInfo-490f745f2dd3a299043a.json",
+					"name" : "yaml-cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yaml-cpp::yaml-cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yaml-cpp__yaml-cpp-RelWithDebInfo-bfcba071ad5020b072b5.json",
+					"name" : "yaml-cpp::yaml-cpp",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-7d45610e01d701be12e6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MessageBrokerLab7",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-b6887ee7733abe663168.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-955867ee9b98e9d93e07.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "broker_app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-broker_app-RelWithDebInfo-436f933aaa2ce28a66cf.json",
+					"name" : "broker_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "broker_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-broker_core-RelWithDebInfo-74e5aa0457279078d506.json",
+					"name" : "broker_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "client_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client_demo-RelWithDebInfo-aef3894754252969742a.json",
+					"name" : "client_demo",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/C++lab7/build",
+		"source" : "F:/C++lab7"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

@@ -1,0 +1,51 @@
+# CMake generation dependency list for this directory.
+D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDependentOption.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeGenericSystem.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeRCInformation.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/CheckCXXSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFileCXX.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/MSVC-CXX.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/MSVC.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/Linker/MSVC-CXX.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/Linker/MSVC.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-MSVC-CXX.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-MSVC.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Initialize.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows.cmake
+D:/Program Files/CMake/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake
+D:/vcpkg/installed/x64-windows/share/cppzmq/cppzmqConfig.cmake
+D:/vcpkg/installed/x64-windows/share/cppzmq/cppzmqConfigVersion.cmake
+D:/vcpkg/installed/x64-windows/share/cppzmq/cppzmqTargets.cmake
+D:/vcpkg/installed/x64-windows/share/yaml-cpp/yaml-cpp-config-version.cmake
+D:/vcpkg/installed/x64-windows/share/yaml-cpp/yaml-cpp-config.cmake
+D:/vcpkg/installed/x64-windows/share/yaml-cpp/yaml-cpp-targets-debug.cmake
+D:/vcpkg/installed/x64-windows/share/yaml-cpp/yaml-cpp-targets-release.cmake
+D:/vcpkg/installed/x64-windows/share/yaml-cpp/yaml-cpp-targets.cmake
+D:/vcpkg/installed/x64-windows/share/zeromq/ZeroMQConfig.cmake
+D:/vcpkg/installed/x64-windows/share/zeromq/ZeroMQConfigVersion.cmake
+D:/vcpkg/installed/x64-windows/share/zeromq/ZeroMQTargets-debug.cmake
+D:/vcpkg/installed/x64-windows/share/zeromq/ZeroMQTargets-release.cmake
+D:/vcpkg/installed/x64-windows/share/zeromq/ZeroMQTargets.cmake
+D:/vcpkg/installed/x64-windows/share/zeromq/vcpkg-cmake-wrapper.cmake
+D:/vcpkg/scripts/buildsystems/vcpkg.cmake
+F:/C++lab7/CMakeLists.txt
+F:/C++lab7/build/CMakeFiles/4.2.0/CMakeCXXCompiler.cmake
+F:/C++lab7/build/CMakeFiles/4.2.0/CMakeRCCompiler.cmake
+F:/C++lab7/build/CMakeFiles/4.2.0/CMakeSystem.cmake

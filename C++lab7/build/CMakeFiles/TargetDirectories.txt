@@ -1,0 +1,6 @@
+F:/C++lab7/build/CMakeFiles/broker_core.dir
+F:/C++lab7/build/CMakeFiles/broker_app.dir
+F:/C++lab7/build/CMakeFiles/client_demo.dir
+F:/C++lab7/build/CMakeFiles/INSTALL.dir
+F:/C++lab7/build/CMakeFiles/ALL_BUILD.dir
+F:/C++lab7/build/CMakeFiles/ZERO_CHECK.dir

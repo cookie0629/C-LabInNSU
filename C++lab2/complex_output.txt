@@ -1,0 +1,9 @@
+1 # 9:0 # Balance of 1001 # 100000.000
+1 # 9:0 # Account Created 1009 # -100.000
+1 # 9:30 # Balance of 1005 # 50000.000
+1 # 9:30 # Account Created 1010 # -50.000
+1 # 9:30 # Account Created 1011 # -4000.000
+1 # 10:0 # Balance of 1007 # 75000.000
+1 # 10:30 # Client error. Wrong operation for new client
+1 # 11:0 # Balance of 1002 # 15050.000
+1 # 11:0 # Account Created 1012 # -25000.000

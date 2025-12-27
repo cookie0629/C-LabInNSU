@@ -1,0 +1,52 @@
+@startuml
+title Personal Appeal - Account Creation Sequence
+
+actor Client
+participant "BankSystem" as Bank
+participant "Account Manager" as AccMgr
+participant "Bank Internal Account" as BankAcc
+database "Account Storage" as Storage
+
+Client -> Bank : Personal Appeal Event\n(name, type, operations)
+Bank -> Bank : parsePersonalAppeal()
+Bank -> Bank : findClientByName(name)
+
+alt Client exists
+    Bank -> Bank : getClientKind()
+else New client
+    Bank -> Bank : ensureClientByName(name, type)
+    Bank -> Storage : createClient()
+end
+
+loop for each operation
+    Client -> Bank : Create Account # USD
+    Bank -> Bank : isOperationAllowed(kind, "Create Account")
+    
+    alt Operation allowed
+        Bank -> Bank : checkAccountLimit(clientId, USD)
+        
+        alt Within limit
+            Bank -> AccMgr : calculateOpeningFee(kind, USD)
+            AccMgr --> Bank : fee = 100.00
+            
+            Bank -> Bank : createNewAccount(USD, -fee)
+            Bank -> Storage : saveAccount(newAccount)
+            Bank -> Storage : createClientAccountRelation()
+            
+            Bank -> BankAcc : transferFee(newAccountId, bankAccountId, fee)
+            BankAcc --> Bank : transfer completed
+            
+            Bank -> Bank : logAccountTransfer(day, time, from, to, amount)
+            Bank -> Client : Account Created 1005 # -100.000
+        else Limit exceeded
+            Bank -> Client : Client error. Active account limit reached
+        end
+    else Operation not allowed
+        Bank -> Client : Service not available
+    end
+end
+
+@enduml
+
+
+

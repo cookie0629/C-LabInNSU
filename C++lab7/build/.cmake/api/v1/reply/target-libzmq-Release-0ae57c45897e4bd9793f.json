@@ -1,0 +1,129 @@
+{
+	"abstract" : true,
+	"artifacts" : 
+	[
+		{
+			"path" : "D:/vcpkg/installed/x64-windows/bin/libzmq-mt-4_3_5.dll"
+		},
+		{
+			"path" : "D:/vcpkg/installed/x64-windows/lib/libzmq-mt-4_3_5.lib"
+		}
+	],
+	"backtrace" : 9,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"include",
+			"_find_package",
+			"find_package",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"D:/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"D:/vcpkg/installed/x64-windows/share/zeromq/ZeroMQTargets.cmake",
+			"D:/vcpkg/installed/x64-windows/share/zeromq/ZeroMQConfig.cmake",
+			"D:/vcpkg/installed/x64-windows/share/zeromq/vcpkg-cmake-wrapper.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 862,
+				"parent" : 1
+			},
+			{
+				"file" : 3,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 3
+			},
+			{
+				"file" : 2,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 44,
+				"parent" : 5
+			},
+			{
+				"file" : 1,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 58,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 653,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 7
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "libzmq::@6890427a1f51a3e7e1df",
+	"imported" : true,
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 10,
+			"fragment" : "ws2_32"
+		},
+		{
+			"backtrace" : 10,
+			"fragment" : "advapi32"
+		},
+		{
+			"backtrace" : 10,
+			"fragment" : "rpcrt4"
+		},
+		{
+			"backtrace" : 10,
+			"fragment" : "iphlpapi"
+		}
+	],
+	"local" : true,
+	"name" : "libzmq",
+	"nameOnDisk" : "libzmq-mt-4_3_5.dll",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "SHARED_LIBRARY"
+}

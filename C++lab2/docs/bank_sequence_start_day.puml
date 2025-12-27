@@ -1,0 +1,15 @@
+@startuml
+title Start of Bank Day Sequence
+
+actor Operator
+participant "BankSystem" as Bank
+participant "Scheduler" as Scheduler
+
+Operator -> Bank : StartOfDayEvent(day, time)
+Bank -> Bank : normalizeToOpeningTime()
+Bank -> Scheduler : resetWorkplaces(day)
+Scheduler --> Bank : acknowledgment
+Bank -> Operator : confirmation
+
+@enduml
+

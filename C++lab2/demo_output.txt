@@ -1,0 +1,6 @@
+1 # 9:30 # Balance of 1001 # 50000.000
+1 # 9:30 # Account Created 1007 # -100.000
+1 # 9:30 # Balance of 1001 # 50000.000
+1 # 10:15 # Balance of 1005 # 20000.000
+1 # 10:15 # Account Created 1008 # -50.000
+1 # 11:0 # Client error. Wrong operation for new client

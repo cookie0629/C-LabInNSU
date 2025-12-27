@@ -1,0 +1,7 @@
+F:/C++lab2/build/CMakeFiles/bank_sim.dir
+F:/C++lab2/build/CMakeFiles/RUN_TESTS.dir
+F:/C++lab2/build/CMakeFiles/ALL_BUILD.dir
+F:/C++lab2/build/CMakeFiles/ZERO_CHECK.dir
+F:/C++lab2/build/external/CMakeFiles/RUN_TESTS.dir
+F:/C++lab2/build/tests/CMakeFiles/bank_tests.dir
+F:/C++lab2/build/tests/CMakeFiles/RUN_TESTS.dir

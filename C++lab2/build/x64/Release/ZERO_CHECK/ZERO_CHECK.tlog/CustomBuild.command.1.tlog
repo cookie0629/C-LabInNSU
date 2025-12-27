@@ -1,0 +1,10 @@
+^F:\C++LAB2\BUILD\CMAKEFILES\693292C8D181C2F7A56969566DB534A2\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/C++lab2 -BF:/C++lab2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/C++lab2/build/BankBranchSimulator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

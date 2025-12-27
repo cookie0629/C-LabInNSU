@@ -1,0 +1,18 @@
+queues:
+# 高优先级队列：磁盘持久化，FIFO顺序，消息存活5分钟
+# Очередь с высоким приоритетом: сохранение диска, 
+# порядок FIFO, сохранение сообщений в течение 5 минут.
+  - name: "HighPriorityQueue"
+    durability: "disk"
+    order: "FIFO"
+    message_ttl: 300
+# 日志队列：内存存储，按时间戳排序，消息存活2分钟
+# Очередь журналов: хранение в памяти, сортировка по временной метке, 
+# сообщения сохраняются в течение 2 минут.
+  - name: "LogsQueue"
+    durability: "memory"
+    order: "sorted"
+    sort_key: "timestamp"
+    message_ttl: 120
+
+
